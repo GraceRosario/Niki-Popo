@@ -1,0 +1,264 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: white;
+    height: 40%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 15vw;
+}
+
+.menu {
+    color: #5C2E00;
+    font-size: 4rem;
+}
+
+#menu {
+    padding: 15%;
+    width: 10%;
+}
+
+.items {
+    height: 0vh;
+    width: 100vw;
+    margin: 5%;
+    padding-left: 15vw;
+    color: #5C2E00;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* box-shadow: 1rem 1rem 1rem 1rem #f5b8b7; */
+    box-sizing: border-box;
+}
+
+#item-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 0;
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+#logo-img {
+    height: 45vh; 
+    width: auto;
+    object-fit: cover;
+    border-radius: 0;
+    margin-left: 0;
+}
+
+.item-text {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    font-size: 4.5rem;
+    color: #5C2E00;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.heading {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    font-size: 6rem;
+    color: #422101;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 0vh;
+    width: 100vw;
+    margin: 5%;
+    padding-left: 15vw;
+    /* box-shadow: 1rem 1rem 1rem 1rem #f5b8b7; */
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.dropdown-text {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    color: #5C2E00;
+    padding: 0.5rem;
+}
+
+.dropdown {
+    height: auto;
+    max-height: 20vh;
+    width: 25%;
+}
+
+#dropdown-section {
+    height: auto;
+    width: 20vw;
+    background-color: #fadadd;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+    margin-top: -2vh;
+    position: absolute;
+    z-index: auto;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    display: none;
+    opacity: 0.9;
+}
+
+.main-hr {
+    background-color: #fadadd;
+    border: none;
+    height: 2px;
+}
+
+.menu-hr {
+    border: none;
+    height: 2px;
+    /* background-color: #abdaf2f7; */
+    background-color: #FF6E91;
+    margin-bottom: 1rem;
+    padding-left: 0;
+} 
+
+footer {
+    background-color: #fae6e8;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color: #5C2E00;
+}
+
+.footer-text {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    font-size: 3rem;
+    padding: 4.5rem;
+}
+
+/* for Mobile Phones */
+
+@media (max-width: 767.99px) {
+
+    header {
+        width: 100%;
+        height: 30%;
+        /* background-color: black; */
+        box-sizing: border-box;
+    }
+
+
+    .items {
+        padding: 10%;
+        width: 40%;
+        height: 60%;
+        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f5b8b7;
+    }
+
+    .item-text {
+        font-size: 1.4rem;
+    }
+
+    #dropdown-section {
+        height: auto;
+        width: 50vw;
+    }
+
+    .dropdown-text {
+        font-size: 1rem;
+    }
+
+    .menu {
+        font-size: 2rem;
+    }
+
+    #dropdown-section {
+        margin-top: 0.2vh;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024.99px) {
+    
+    header {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .menu {
+        font-size: 3rem;
+        margin-top: 10%;
+    }
+
+    .item-text {
+        font-size: 3rem;
+    }
+
+
+    .dropdown-text {
+        font-size: 1.5rem;
+    }
+
+    hr {
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-text {
+        font-size: 2rem;
+        padding: 3.5rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200.99px) {
+    
+    header {
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .menu {
+        font-size: 4rem;
+        margin-top: 10%;
+    }
+
+    
+    .item-text {
+        font-size: 3.5rem;
+    }
+
+    .footer-text {
+        font-size: 3rem;
+        padding: 4.5rem;
+    }
+}
