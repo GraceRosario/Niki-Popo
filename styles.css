@@ -257,6 +257,10 @@ footer {
         /* background-color: red; */
     }
 
+    nav {
+        gap: 8vw;
+    }
+
     .menu {
         font-size: 3rem;
         margin-top: 10%;
@@ -264,6 +268,10 @@ footer {
 
     .item-text {
         font-size: 3rem;
+    }
+
+    .heading {
+        font-size: 4.5rem;
     }
 
 
