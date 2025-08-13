@@ -71,6 +71,116 @@ nav {
     margin-left: 0;
 }
 
+.chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14  {
+    opacity: 0.8;
+    width: 20vw;
+    z-index: 0;
+}
+
+.chick1 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.chick2 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 300%;
+    right: 10%;
+}
+
+.chick3 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.chick4 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+
+.chick5 {
+    transform: rotate(70deg);
+    position: absolute;
+    top: 120%;
+    left: 70%;
+}
+
+.chick6 {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 340%;
+    left: 40%;
+}
+
+
+.chick7 {
+    transform: rotate(210deg);
+    position: absolute;
+    top: 300%;
+    left: 5%;
+}
+
+.chick8 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.chick9 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 250%;
+    left: 10%;
+}
+
+.chick10 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 150%;
+    left: 50%;
+}
+
+.chick11 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 230%;
+    left: 40%;
+}
+
+
+.chick12 {
+    transform: rotate(70deg);
+    position: absolute;
+    top: 190%;
+    left: 70%;
+}
+
+.chick13 {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 100%;
+    left: 3%;
+}
+
+
+.chick14 {
+    transform: rotate(210deg);
+    position: absolute;
+    top: 200%;
+    left: 5%;
+}
+
+
+
 .item-text {
     font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
     font-size: 4.5rem;
@@ -78,6 +188,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: left;
+    z-index: 1;
 }
 
 .heading {
@@ -91,6 +202,7 @@ nav {
     margin: 5%;
     padding-left: 15vw;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 a {
