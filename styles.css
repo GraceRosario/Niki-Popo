@@ -72,8 +72,8 @@ nav {
 }
 
 .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14  {
-    opacity: 0.8;
-    width: 20vw;
+    opacity: 0.5;
+    width: 10vw;
     z-index: 0;
 }
 
