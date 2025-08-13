@@ -71,7 +71,7 @@ nav {
     margin-left: 0;
 }
 
-.chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14  {
+.chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
     opacity: 0.5;
     width: 10vw;
     z-index: 0;
@@ -117,7 +117,7 @@ nav {
     transform: rotate(90deg);
     position: absolute;
     top: 340%;
-    left: 40%;
+    left: 70%;
 }
 
 
@@ -146,14 +146,14 @@ nav {
     transform: rotate(180deg);
     position: absolute;
     top: 150%;
-    left: 50%;
+    left: 10%;
 }
 
 .chick11 {
     transform: rotate(200deg);
     position: absolute;
     top: 230%;
-    left: 40%;
+    left: 70%;
 }
 
 
@@ -177,6 +177,49 @@ nav {
     position: absolute;
     top: 200%;
     left: 5%;
+}
+
+.chick15 {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+
+.chick16 {
+    transform: rotate(100deg);
+    position: absolute;
+    top: 370%;
+    left: 20%;
+}
+
+
+.chick17 {
+    transform: rotate(210deg);
+    position: absolute;
+    top: 320%;
+    left: 25%;
+}
+
+.chick18 {
+    transform: rotate(50deg);
+    position: absolute;
+    top: 70%;
+    left: 90%;
+}
+
+.chick19 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 270%;
+    left: 30%;
+}
+
+.chick20 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 150%;
+    left: 80%;
 }
 
 
@@ -310,10 +353,27 @@ footer {
         margin-top: 0.2vh;
     }
 
+    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    width: 20vw;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+
     .footer-text {
         font-size: 1rem;
         padding: 1.5rem;
     }
+
+    .chick7, .chick11, .chick9, .chick19, .chick2,.chick17, .chick16, .chick6 {
+        visibility: hidden;
+    }
+
+    .chick18 {
+        left: 60%
+    } 
 
 }
 
@@ -355,6 +415,19 @@ footer {
         margin-top: 0.2vh;
     }
 
+    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    width: 23vw;
+    }
+
+    .chick17, .chick16, .chick6, .chick7, .chick2 {
+        visibility: hidden;
+    }
+
+    .chick18 {
+        left: 60%
+    } 
+
+
     .footer-text {
         font-size: 1rem;
         padding: 1.5rem;
@@ -395,6 +468,20 @@ footer {
         margin-bottom: 0.8rem;
     }
 
+    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    width: 20vw;
+    }
+
+    .chick17, .chick16, .chick6 {
+        visibility: hidden;
+    }
+
+    .chick18 {
+        left: 60%
+    } 
+
+
+
     .footer-text {
         font-size: 2rem;
         padding: 3.5rem;
@@ -417,6 +504,20 @@ footer {
     .item-text {
         font-size: 3.5rem;
     }
+
+    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    width: 20vw;
+    }
+
+    .chick17, .chick16, .chick6 {
+        visibility: hidden;
+    }
+
+    .chick18 {
+        left: 60%
+    } 
+
+
 
     .footer-text {
         font-size: 3rem;
