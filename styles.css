@@ -2,7 +2,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: #fff0f1;
+    background-color: #fadadd;
     width: 100%;
     box-sizing: border-box;
 }
@@ -71,7 +71,7 @@ nav {
     margin-left: 0;
 }
 
-.chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+.chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     opacity: 0.5;
     width: 10vw;
     z-index: 0;
@@ -81,20 +81,20 @@ nav {
     transform: rotate(30deg);
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 30%;
 }
 
 .chick2 {
     transform: rotate(310deg);
     position: absolute;
-    top: 300%;
+    top: 40%;
     right: 10%;
 }
 
 .chick3 {
     transform: rotate(180deg);
     position: absolute;
-    top: 90%;
+    top: 50%;
     left: 50%;
 }
 
@@ -105,124 +105,430 @@ nav {
     left: 2%;
 }
 
-
-.chick5 {
-    transform: rotate(70deg);
-    position: absolute;
-    top: 120%;
-    left: 70%;
-}
-
-.chick6 {
-    transform: rotate(90deg);
-    position: absolute;
-    top: 340%;
-    left: 70%;
-}
-
-
-.chick7 {
-    transform: rotate(210deg);
-    position: absolute;
-    top: 300%;
-    left: 5%;
-}
-
-.chick8 {
+.chick1-1 {
     transform: rotate(30deg);
     position: absolute;
-    top: 50%;
-    left: 70%;
-}
-
-.chick9 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 250%;
-    left: 10%;
-}
-
-.chick10 {
-    transform: rotate(180deg);
-    position: absolute;
-    top: 150%;
-    left: 10%;
-}
-
-.chick11 {
-    transform: rotate(200deg);
-    position: absolute;
-    top: 230%;
-    left: 70%;
-}
-
-
-.chick12 {
-    transform: rotate(70deg);
-    position: absolute;
-    top: 190%;
-    left: 70%;
-}
-
-.chick13 {
-    transform: rotate(90deg);
-    position: absolute;
-    top: 100%;
-    left: 3%;
-}
-
-
-.chick14 {
-    transform: rotate(210deg);
-    position: absolute;
-    top: 200%;
-    left: 5%;
-}
-
-.chick15 {
-    transform: rotate(90deg);
-    position: absolute;
-    top: 170%;
-    left: 50%;
-}
-
-.chick16 {
-    transform: rotate(100deg);
-    position: absolute;
-    top: 370%;
-    left: 20%;
-}
-
-
-.chick17 {
-    transform: rotate(210deg);
-    position: absolute;
-    top: 320%;
-    left: 25%;
-}
-
-.chick18 {
-    transform: rotate(50deg);
-    position: absolute;
     top: 70%;
-    left: 90%;
-}
-
-.chick19 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 270%;
     left: 30%;
 }
 
-.chick20 {
+.chick2-1 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+
+.chick3-1 {
     transform: rotate(180deg);
     position: absolute;
-    top: 150%;
-    left: 80%;
+    top: 70%;
+    left: 50%;
+}
+
+.chick4-1 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 70%;
+    left: 2%;
+}
+
+.chick1-2 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+
+.chick2-2 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+
+.chick3-2 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.chick4-2 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
+.chick1-3 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 120%;
+    left: 30%;
+}
+
+.chick2-3 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 120%;
+    right: 10%;
+}
+
+.chick3-3 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 120%;
+    left: 50%;
+}
+
+.chick4-3 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 120%;
+    left: 2%;
+}
+
+.chick1-4 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 140%;
+    left: 30%;
+}
+
+.chick2-4{
+    transform: rotate(310deg);
+    position: absolute;
+    top: 140%;
+    right: 10%;
+}
+
+.chick3-4 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 140%;
+    left: 50%;
+}
+
+.chick4-4 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 140%;
+    left: 2%;
+}
+
+.chick1-5 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 160%;
+    left: 30%;
+}
+
+.chick2-5 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 160%;
+    right: 10%;
+}
+
+.chick3-5 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 160%;
+    left: 50%;
+}
+
+.chick4-5 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 160%;
+    left: 2%;
+}
+
+.chick1-6 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 180%;
+    left: 30%;
+}
+
+.chick2-6 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 180%;
+    right: 10%;
+}
+
+.chick3-6 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 180%;
+    left: 50%;
+}
+
+.chick4-6 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 180%;
+    left: 2%;
+}
+
+.chick1-7 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 200%;
+    left: 30%;
+}
+
+.chick2-7 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 200%;
+    right: 10%;
+}
+
+.chick3-7 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 200%;
+    left: 50%;
+}
+
+.chick4-7 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 200%;
+    left: 2%;
+}
+
+.chick1-8 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 220%;
+    left: 30%;
+}
+
+.chick2-8 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 220%;
+    right: 10%;
+}
+
+.chick3-8 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 220%;
+    left: 50%;
+}
+
+.chick4-8 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 220%;
+    left: 2%;
+}
+
+.chick1-9 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+.chick2-9 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 240%;
+    right: 10%;
+}
+
+.chick3-9 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 240%;
+    left: 50%;
+}
+
+.chick4-9 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 240%;
+    left: 2%;
+}
+
+.chick1-10 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 260%;
+    left: 30%;
+}
+
+.chick2-10 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 260%;
+    right: 10%;
+}
+
+.chick3-10 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 260%;
+    left: 50%;
+}
+
+.chick4-10 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 260%;
+    left: 2%;
+}
+
+.chick1-11 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 280%;
+    left: 30%;
+}
+
+.chick2-11 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 280%;
+    right: 10%;
+}
+
+.chick3-11 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 280%;
+    left: 50%;
+}
+
+.chick4-11 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 280%;
+    left: 2%;
+}
+
+.chick1-12 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 300%;
+    left: 30%;
+}
+
+.chick2-12 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 300%;
+    right: 10%;
+}
+
+.chick3-12 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 300%;
+    left: 50%;
+}
+
+.chick4-12 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 300%;
+    left: 2%;
+}
+
+.chick1-13 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 320%;
+    left: 30%;
+}
+
+.chick2-13 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 320%;
+    right: 10%;
+}
+
+.chick3-13 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 320%;
+    left: 50%;
+}
+
+.chick4-13 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 320%;
+    left: 2%;
+}
+
+.chick1-14 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 340%;
+    left: 30%;
+}
+
+.chick2-14 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 340%;
+    right: 10%;
+}
+
+.chick3-14 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 340%;
+    left: 50%;
+}
+
+.chick4-14 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 340%;
+    left: 2%;
+}
+
+.chick1-15 {
+    transform: rotate(30deg);
+    position: absolute;
+    top: 360%;
+    left: 30%;
+}
+
+.chick2-15 {
+    transform: rotate(310deg);
+    position: absolute;
+    top: 360%;
+    right: 10%;
+}
+
+.chick3-15 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 360%;
+    left: 50%;
+}
+
+.chick4-15 {
+    transform: rotate(200deg);
+    position: absolute;
+    top: 360%;
+    left: 2%;
 }
 
 
+.menu-text {
+    z-index: 1;
+}
 
 .item-text {
     font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
@@ -260,6 +566,11 @@ a {
     font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
     color: #5C2E00;
     padding: 0.5rem;
+    z-index: 1;
+}
+
+a .div {
+    z-index: 1;
 }
 
 .dropdown {
@@ -271,7 +582,7 @@ a {
 #dropdown-section {
     height: auto;
     width: 20vw;
-    background-color: rgba(253, 253, 111, 0.901);
+    background-color: #abdaf2;
     font-size: 1.5rem;
     margin-left: 2vw;
     margin-top: -2vh;
@@ -284,7 +595,7 @@ a {
 }
 
 .main-hr {
-    background-color: #fadadd;
+    background-color: #a5e0fe;
     border: none;
     height: 2px;
 }
@@ -299,7 +610,7 @@ a {
 } 
 
 footer {
-    background-color: #fae6e8;
+    background-color: #abdaf2;
     height: 40%;
     width: 100%;
     text-align: center;
