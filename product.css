@@ -1,7 +1,6 @@
 html, body {
     /* padding: 0;
     margin: 0; */
-    background-color: #fae6e6;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -18,8 +17,7 @@ html, body {
 /* header */
 
 header {
-    background-color: #fcd0cf;
-    height: 30%;
+    height: 40%;
     width: auto;
     display: flex;
     align-items: center;
@@ -28,15 +26,14 @@ header {
 
 nav {
     width: 100%;
-    height: 100%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding: 1rem;
+    gap: 15vw;
 }
 
 .menu {
-    color: #8b5a2b;
+    color: #5c2e00;
     font-size: 4rem;
 }
 
@@ -46,10 +43,10 @@ nav {
 }
 
 #logo-img {
-    height: auto; 
-    width: 50%;
+    height: 45vh; 
+    width: auto;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0;
     margin-left: 0;
 }
 
@@ -98,13 +95,11 @@ hr {
 .main-container {
     width: 80%;
     height: 150vh;
-    background-color: #fcd0cf;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 1rem 1rem 1rem 1rem #f5b8b7;
-    border-radius: 5%;
+    border: 0.5rem solid #fcd0cf;
 }
 
 .img-container {
@@ -116,8 +111,6 @@ img, video {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #e48684;
-    border-radius: 5%;
 }
 
 main {
@@ -128,7 +121,7 @@ main {
 }
 
 .name, .price {
-    color: #8b5a2b;
+    color: #5c2e00;
     font-size: 2.5rem;
     font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
 }
@@ -144,13 +137,11 @@ main {
 }
 
 .buy-btn {
-    color: #e48684;
-    background-color: #fae6e6;
-    border: 2px solid #e48684;
-    border-radius: 10%;
+    color: #422101;
+    border: 0.5rem solid #422101;
+    background-color: white;
     font-size: 3rem;
     padding: 0.2rem;
-    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #e48684;
 }
 
 
@@ -160,16 +151,19 @@ main {
 
     header {
         width: 100%;
-        height: 30%;
         /* background-color: black; */
         box-sizing: border-box;
+    }
+
+    nav {
+        gap: 0rem;
     }
 
 
     .main-container {
         width: 100%;
         height: 80vh;
-        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f5b8b7;
+        border: 0.3rem solid #fcd0cf;
     }
 
     .name, .price {
@@ -199,6 +193,7 @@ main {
 
     .buy-btn {
         font-size: 1.4rem;
+        border: 0.3rem solid #422101;
     }
 
     .img-container {
@@ -216,16 +211,19 @@ main {
 
     header {
         width: 100%;
-        height: 30%;
         /* background-color: black; */
         box-sizing: border-box;
+    }
+
+    nav {
+        gap: 5vw;
     }
 
 
     .main-container {
         width: 100%;
         height: 140vh;
-        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f5b8b7;
+        border: 0.3rem solid #fcd0cf;
     }
 
     .name, .price {
@@ -255,6 +253,7 @@ main {
 
     .buy-btn {
         font-size: 1.4rem;
+        border: 0.3rem solid #422101;
     }
 
     .img-container {
@@ -281,6 +280,11 @@ main {
         margin-top: 10%;
     }
 
+    nav {
+        gap: 8vw;
+    }
+
+
     .item-text {
         font-size: 3rem;
     }
@@ -297,7 +301,7 @@ main {
     .main-container {
         width: 100%;
         height: 170vh;
-        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f5b8b7;
+        border: 0.3rem solid #fcd0cf;
     }
 
     .name, .price {
@@ -310,6 +314,7 @@ main {
 
     .buy-btn {
         font-size: 2.5rem;
+        border: 0.3rem solid #422101;
     }
 
     .img-container {
@@ -342,7 +347,7 @@ main {
     .main-container {
         width: 100%;
         height: 170vh;
-        box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #f5b8b7;
+        border: 0.3rem solid #fcd0cf;
     }
 
     .name, .price {
@@ -355,6 +360,7 @@ main {
 
     .buy-btn {
         font-size: 2.5rem;
+        border: 0.3rem solid #422101;
     }
 
     .img-container {

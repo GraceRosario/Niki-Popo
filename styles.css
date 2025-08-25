@@ -71,7 +71,7 @@ nav {
     margin-left: 0;
 }
 
-.chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
+/* .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     opacity: 0.5;
     width: 10vw;
     z-index: 0;
@@ -81,7 +81,7 @@ nav {
     transform: rotate(30deg);
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 20%;
 }
 
 .chick2 {
@@ -92,42 +92,42 @@ nav {
 }
 
 .chick3 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
 }
 
 .chick4 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 40%;
-    left: 2%;
+    left: 10%;
 }
 
 .chick1-1 {
     transform: rotate(30deg);
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 60%;
+    left: 10%;
 }
 
 .chick2-1 {
     transform: rotate(310deg);
     position: absolute;
     top: 70%;
-    right: 10%;
+    right: 5%;
 }
 
 .chick3-1 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 60%;
 }
 
 .chick4-1 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 70%;
     left: 2%;
@@ -148,14 +148,14 @@ nav {
 }
 
 .chick3-2 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 90%;
     left: 50%;
 }
 
 .chick4-2 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 90%;
     left: 2%;
@@ -165,35 +165,35 @@ nav {
     transform: rotate(30deg);
     position: absolute;
     top: 120%;
-    left: 30%;
+    left: 60%;
 }
 
 .chick2-3 {
     transform: rotate(310deg);
     position: absolute;
     top: 120%;
-    right: 10%;
+    right: 4%;
 }
 
 .chick3-3 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 120%;
-    left: 50%;
+    left: 40%;
 }
 
 .chick4-3 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 120%;
-    left: 2%;
+    left: 10%;
 }
 
 .chick1-4 {
     transform: rotate(30deg);
     position: absolute;
     top: 140%;
-    left: 30%;
+    left: 40%;
 }
 
 .chick2-4{
@@ -204,17 +204,17 @@ nav {
 }
 
 .chick3-4 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
-    top: 140%;
-    left: 50%;
+    top: 145%;
+    left: 60%;
 }
 
 .chick4-4 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 140%;
-    left: 2%;
+    left: 5%;
 }
 
 .chick1-5 {
@@ -227,22 +227,22 @@ nav {
 .chick2-5 {
     transform: rotate(310deg);
     position: absolute;
-    top: 160%;
-    right: 10%;
+    top: 165%;
+    right: 8%;
 }
 
 .chick3-5 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 160%;
     left: 50%;
 }
 
 .chick4-5 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 160%;
-    left: 2%;
+    left: 10%;
 }
 
 .chick1-6 {
@@ -256,21 +256,21 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 180%;
-    right: 10%;
+    right: 1%;
 }
 
 .chick3-6 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 180%;
     left: 50%;
 }
 
 .chick4-6 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 180%;
-    left: 2%;
+    left: 7%;
 }
 
 .chick1-7 {
@@ -288,14 +288,14 @@ nav {
 }
 
 .chick3-7 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
-    top: 200%;
-    left: 50%;
+    top: 205%;
+    left: 60%;
 }
 
 .chick4-7 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 200%;
     left: 2%;
@@ -312,7 +312,7 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 220%;
-    right: 10%;
+    right: 5%;
 }
 
 .chick3-8 {
@@ -323,10 +323,10 @@ nav {
 }
 
 .chick4-8 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 220%;
-    left: 2%;
+    left: 10%;
 }
 
 .chick1-9 {
@@ -340,18 +340,18 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 240%;
-    right: 10%;
+    right: 5%;
 }
 
 .chick3-9 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 240%;
     left: 50%;
 }
 
 .chick4-9 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 240%;
     left: 2%;
@@ -360,7 +360,7 @@ nav {
 .chick1-10 {
     transform: rotate(30deg);
     position: absolute;
-    top: 260%;
+    top: 255%;
     left: 30%;
 }
 
@@ -368,7 +368,7 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 260%;
-    right: 10%;
+    right: 20%;
 }
 
 .chick3-10 {
@@ -379,10 +379,10 @@ nav {
 }
 
 .chick4-10 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 260%;
-    left: 2%;
+    left: 20%;
 }
 
 .chick1-11 {
@@ -403,14 +403,14 @@ nav {
     transform: rotate(180deg);
     position: absolute;
     top: 280%;
-    left: 50%;
+    left: 60%;
 }
 
 .chick4-11 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 280%;
-    left: 2%;
+    left: 1%;
 }
 
 .chick1-12 {
@@ -424,49 +424,49 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 300%;
-    right: 10%;
+    right: 2%;
 }
 
 .chick3-12 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 300%;
     left: 50%;
 }
 
 .chick4-12 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 300%;
-    left: 2%;
+    left: 5%;
 }
 
 .chick1-13 {
     transform: rotate(30deg);
     position: absolute;
     top: 320%;
-    left: 30%;
+    left: 25%;
 }
 
 .chick2-13 {
     transform: rotate(310deg);
     position: absolute;
     top: 320%;
-    right: 10%;
+    right: 8%;
 }
 
 .chick3-13 {
     transform: rotate(180deg);
     position: absolute;
     top: 320%;
-    left: 50%;
+    left: 60%;
 }
 
 .chick4-13 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 320%;
-    left: 2%;
+    left: 10%;
 }
 
 .chick1-14 {
@@ -480,28 +480,28 @@ nav {
     transform: rotate(310deg);
     position: absolute;
     top: 340%;
-    right: 10%;
+    right: 3%;
 }
 
 .chick3-14 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 340%;
-    left: 50%;
+    left: 60%;
 }
 
 .chick4-14 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 340%;
-    left: 2%;
+    left: 6%;
 }
 
 .chick1-15 {
     transform: rotate(30deg);
     position: absolute;
     top: 360%;
-    left: 30%;
+    left: 25%;
 }
 
 .chick2-15 {
@@ -512,18 +512,18 @@ nav {
 }
 
 .chick3-15 {
-    transform: rotate(180deg);
+    transform: rotate(60deg);
     position: absolute;
     top: 360%;
     left: 50%;
 }
 
 .chick4-15 {
-    transform: rotate(200deg);
+    transform: rotate(340deg);
     position: absolute;
     top: 360%;
-    left: 2%;
-}
+    left: 10%;
+} */
 
 
 .menu-text {
@@ -664,7 +664,7 @@ footer {
         margin-top: 0.2vh;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     width: 20vw;
     }
 
@@ -726,7 +726,7 @@ footer {
         margin-top: 0.2vh;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     width: 23vw;
     }
 
@@ -779,7 +779,7 @@ footer {
         margin-bottom: 0.8rem;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     width: 20vw;
     }
 
@@ -816,7 +816,7 @@ footer {
         font-size: 3.5rem;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick5, .chick6, .chick7, .chick8, .chick9, .chick10, .chick11, .chick12, .chick13, .chick14, .chick15, .chick16, .chick17, .chick18, .chick19, .chick20 {
+    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
     width: 20vw;
     }
 
