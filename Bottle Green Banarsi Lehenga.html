@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Black and Pink Co-ord Set</title>
+    <title>Bottle Green Banarsi Lehenga</title>
 </head>
 <body>
     <header>
@@ -27,7 +27,7 @@
                 </a>
                 
                 <hr class="menu-hr">
-                <a href="Co-ord Set.html" class="dropdown-text active">
+                <a href="Co-ord Set.html" class="dropdown-text">
                     <div>Co-ord Set</div>
                 </a>
                 
@@ -47,7 +47,7 @@
                 </a>
 
                 <hr class="menu-hr">
-                <a href="Lehenga.html" class="dropdown-text">
+                <a href="Lehenga.html" class="dropdown-text active">
                     <div>Lehenga</div>
                 </a>
 
@@ -73,12 +73,29 @@
         </header>
     <main>
     <div class="main-container">
-        <div class="img-container">
-            <img src="Black and Pink Co-ord Set.webp">
+        
+        <div class="img-container slider">
+          <div class="slides" id="slides">
+              <img src="Green Banarsi 2.webp" alt="First">
+              <img src="Bottle Green Banarsi Lehenga.webp" alt="Second">
+         </div>
         </div>
-            <p class="name">Black and Pink Co-ord Set</p>
-            <p class="price">₹799</p>
-        <input type="button" class="buy-btn" value="DM to Buy" onclick="window.open('https://wa.me/918104090179?text=Hi%2C%20Niki%20Popo%2C%20I%20want%20to%20place%20an%20order%20of%20Black%20and%20Pink%20Coord%20Set%20which%20is%20of%20%E2%82%B9%20799', '_blank')">
+
+        <div class="buttons">
+            <button onclick="showSlide(0)" class="right"><i class="fa-solid fa-chevron-left" style="color: #511f24;"></i></button>
+            <button onclick="showSlide(1)" class="left"><i class="fa-solid fa-chevron-right" style="color: #511f24;"></i></button>
+        </div>
+
+        <script>
+         function showSlide(index) {
+         document.getElementById("slides").style.transform =
+         "translateX(" + (-index * 100) + "%)";
+        }
+        </script>
+
+            <p class="name lehenga">Bottle Green Banarsi Lehenga</p>
+            <p class="price">₹1550</p>
+        <input type="button" class="buy-btn" value="DM to Buy" onclick="window.open('https://wa.me/918104090179?text=Hi%2C%20Niki%20Popo%2C%20I%20want%20to%20place%20an%20order%20of%20Bottle%20Green%20Banarasi%20Lehenga%20which%20is%20of%20%E2%82%B9%201550', '_blank')">
     </div>
     </main>
     <script src="script.js"></script>
