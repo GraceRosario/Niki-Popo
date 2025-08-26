@@ -533,7 +533,7 @@ nav {
     justify-content: center;
     background-image: url("bg2.webp");
     background-repeat: repeat;     /* repeats in both directions */
-    background-size: 500px 450px; 
+    background-size: 800px 600px; 
     opacity: 0.5;
 }
 
