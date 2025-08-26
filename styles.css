@@ -71,474 +71,31 @@ nav {
     margin-left: 0;
 }
 
-/* .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
-    opacity: 0.5;
-    width: 10vw;
-    z-index: 0;
-}
-
-.chick1 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 50%;
-    left: 20%;
-}
-
-.chick2 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 40%;
-    right: 10%;
-}
-
-.chick3 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 50%;
-    left: 60%;
-}
-
-.chick4 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 40%;
-    left: 10%;
-}
-
-.chick1-1 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 60%;
-    left: 10%;
-}
-
-.chick2-1 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 70%;
-    right: 5%;
-}
-
-.chick3-1 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 70%;
-    left: 60%;
-}
-
-.chick4-1 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 70%;
-    left: 2%;
-}
-
-.chick1-2 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 90%;
-    left: 30%;
-}
-
-.chick2-2 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 90%;
-    right: 10%;
-}
-
-.chick3-2 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 90%;
-    left: 50%;
-}
-
-.chick4-2 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 90%;
-    left: 2%;
-}
-
-.chick1-3 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 120%;
-    left: 60%;
-}
-
-.chick2-3 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 120%;
-    right: 4%;
-}
-
-.chick3-3 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 120%;
-    left: 40%;
-}
-
-.chick4-3 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 120%;
-    left: 10%;
-}
-
-.chick1-4 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 140%;
-    left: 40%;
-}
-
-.chick2-4{
-    transform: rotate(310deg);
-    position: absolute;
-    top: 140%;
-    right: 10%;
-}
-
-.chick3-4 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 145%;
-    left: 60%;
-}
-
-.chick4-4 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 140%;
-    left: 5%;
-}
-
-.chick1-5 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 160%;
-    left: 30%;
-}
-
-.chick2-5 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 165%;
-    right: 8%;
-}
-
-.chick3-5 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 160%;
-    left: 50%;
-}
-
-.chick4-5 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 160%;
-    left: 10%;
-}
-
-.chick1-6 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 180%;
-    left: 30%;
-}
-
-.chick2-6 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 180%;
-    right: 1%;
-}
-
-.chick3-6 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 180%;
-    left: 50%;
-}
-
-.chick4-6 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 180%;
-    left: 7%;
-}
-
-.chick1-7 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 200%;
-    left: 30%;
-}
-
-.chick2-7 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 200%;
-    right: 10%;
-}
-
-.chick3-7 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 205%;
-    left: 60%;
-}
-
-.chick4-7 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 200%;
-    left: 2%;
-}
-
-.chick1-8 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 220%;
-    left: 30%;
-}
-
-.chick2-8 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 220%;
-    right: 5%;
-}
-
-.chick3-8 {
-    transform: rotate(180deg);
-    position: absolute;
-    top: 220%;
-    left: 50%;
-}
-
-.chick4-8 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 220%;
-    left: 10%;
-}
-
-.chick1-9 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 70%;
-    left: 30%;
-}
-
-.chick2-9 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 240%;
-    right: 5%;
-}
-
-.chick3-9 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 240%;
-    left: 50%;
-}
-
-.chick4-9 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 240%;
-    left: 2%;
-}
-
-.chick1-10 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 255%;
-    left: 30%;
-}
-
-.chick2-10 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 260%;
-    right: 20%;
-}
-
-.chick3-10 {
-    transform: rotate(180deg);
-    position: absolute;
-    top: 260%;
-    left: 50%;
-}
-
-.chick4-10 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 260%;
-    left: 20%;
-}
-
-.chick1-11 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 280%;
-    left: 30%;
-}
-
-.chick2-11 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 280%;
-    right: 10%;
-}
-
-.chick3-11 {
-    transform: rotate(180deg);
-    position: absolute;
-    top: 280%;
-    left: 60%;
-}
-
-.chick4-11 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 280%;
-    left: 1%;
-}
-
-.chick1-12 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 300%;
-    left: 30%;
-}
-
-.chick2-12 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 300%;
-    right: 2%;
-}
-
-.chick3-12 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 300%;
-    left: 50%;
-}
-
-.chick4-12 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 300%;
-    left: 5%;
-}
-
-.chick1-13 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 320%;
-    left: 25%;
-}
-
-.chick2-13 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 320%;
-    right: 8%;
-}
-
-.chick3-13 {
-    transform: rotate(180deg);
-    position: absolute;
-    top: 320%;
-    left: 60%;
-}
-
-.chick4-13 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 320%;
-    left: 10%;
-}
-
-.chick1-14 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 340%;
-    left: 30%;
-}
-
-.chick2-14 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 340%;
-    right: 3%;
-}
-
-.chick3-14 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 340%;
-    left: 60%;
-}
-
-.chick4-14 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 340%;
-    left: 6%;
-}
-
-.chick1-15 {
-    transform: rotate(30deg);
-    position: absolute;
-    top: 360%;
-    left: 25%;
-}
-
-.chick2-15 {
-    transform: rotate(310deg);
-    position: absolute;
-    top: 360%;
-    right: 10%;
-}
-
-.chick3-15 {
-    transform: rotate(60deg);
-    position: absolute;
-    top: 360%;
-    left: 50%;
-}
-
-.chick4-15 {
-    transform: rotate(340deg);
-    position: absolute;
-    top: 360%;
-    left: 10%;
-} */
-
-#img-box {
-    width: 100%;
-    height: 300%;
-    position: absolute;
-    top: 45%;
-    justify-content: center;
-    background-image: url("bg2.webp");
-    background-repeat: repeat;     /* repeats in both directions */
-    background-size: 800px 600px; 
-    opacity: 0.5;
-}
-
-.menu-text {
-    z-index: 1;
+.about-heading {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    font-size: 4.5rem;
+    color: #5C2E00;
+    padding: 10rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 3rem;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.about-us {
+    font-family: "cormorant garamond", "playfair display", "libre baskerville", sans-serif;
+    font-size: 3rem;
+    color: #5C2E00;
+    padding: 6rem;
+}
+
+.indent {
+    text-indent: 5rem;
+    text-align: justify;
 }
 
 .item-text {
@@ -654,6 +211,15 @@ footer {
         font-size: 2rem;
     }
 
+    .about-heading {
+        font-size: 2rem;
+    }
+
+    .about-us {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
     .heading {
         font-size: 3rem;
     }
@@ -712,12 +278,16 @@ footer {
         gap: 5vw;
     }
 
-    .item-text {
+    .about-us, .item-text {
         font-size: 2rem;
     }
 
-    .heading {
+    .about-heading, .heading {
         font-size: 3rem;
+    }
+    
+    .about-us {
+        padding: 4rem;
     }
 
     #dropdown-section {
@@ -773,14 +343,17 @@ footer {
         margin-top: 10%;
     }
 
-    .item-text {
+    .about-us, .item-text {
         font-size: 3rem;
     }
 
-    .heading {
+    .about-heading, .heading {
         font-size: 4.5rem;
     }
 
+    .about-us {
+        padding: 4rem;
+    }
 
     .dropdown-text {
         font-size: 1.5rem;
