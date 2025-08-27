@@ -192,7 +192,7 @@ main {
 
 /* for Mobile Phones */
 
-@media (max-width: 540px) {
+@media (max-width: 540.99px) {
 
     header {
         width: 100%;
@@ -250,9 +250,18 @@ main {
         padding: 2rem;
     }
 
+    .buttons {
+        gap: 60vw;
+        top: 65vh;
+    }
+
+    .right, .left {
+        font-size: 2.5rem;
+    }
+
 }
 
-@media (min-width: 540px) and (max-width: 767px) {
+@media (min-width: 541px) and (max-width: 767.99px) {
 
     header {
         width: 100%;
@@ -310,10 +319,19 @@ main {
         padding: 2rem;
     }
 
+    .buttons {
+        gap: 70vw;
+        top: 90vh;
+    }
+
+    .right, .left {
+        font-size: 3rem;
+    }
+
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024.99px) {
     
     header {
         width: 100%;
@@ -371,9 +389,18 @@ main {
     main {
         padding: 3rem;
     }
+
+    .buttons {
+        gap: 70vw;
+        top: 90vh;
+    }
+
+    .right, .left {
+        font-size: 4rem;
+    }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1200.99px) {
     
     header {
         width: 100%;
@@ -417,5 +444,14 @@ main {
 
     main {
         padding: 3rem;
+    }
+
+    .buttons {
+        gap: 70vw;
+        top: 90vh;
+    }
+
+    .right, .left {
+        font-size: 4rem;
     }
 }
