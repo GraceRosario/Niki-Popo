@@ -73,7 +73,7 @@ nav {
     margin-left: 2vw;
     margin-top: -2vh;
     position: absolute;
-    z-index: auto;
+    z-index: 100;
     border-radius: 1rem;
     padding: 1rem;
     display: none;
@@ -87,7 +87,7 @@ a {
 hr {
   border: none;
   height: 2px;
-  background-color: #fcd0cf;
+  background-color: #a5e0fe;
   margin-bottom: 1rem;
 } 
 
