@@ -150,16 +150,15 @@ a .div {
 #dropdown-section {
     height: auto;
     width: 20vw;
-    background-color: #abdaf2;
+    background-color: #a5e0fe;
     font-size: 1.5rem;
     margin-left: 2vw;
     margin-top: -2vh;
     position: absolute;
-    z-index: auto;
+    z-index: 10;
     border-radius: 1rem;
     padding-left: 1rem;
     display: none;
-    opacity: 0.9;
 }
 
 .main-hr {
@@ -241,10 +240,6 @@ footer {
         margin-top: 0.2vh;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
-    width: 20vw;
-    }
-
     main {
         width: 100vw;
     }
@@ -254,15 +249,6 @@ footer {
         font-size: 1rem;
         padding: 1.5rem;
     }
-
-    .chick7, .chick11, .chick9, .chick19, .chick2,.chick17, .chick16, .chick6 {
-        visibility: hidden;
-    }
-
-    .chick18 {
-        left: 60%
-    } 
-
 }
 
 @media (min-width: 601px) and (max-width: 767.99px) {
@@ -306,18 +292,6 @@ footer {
     #dropdown-section {
         margin-top: 0.2vh;
     }
-
-    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
-    width: 23vw;
-    }
-
-    .chick17, .chick16, .chick6, .chick7, .chick2 {
-        visibility: hidden;
-    }
-
-    .chick18 {
-        left: 60%
-    } 
 
 
     .footer-text {
@@ -363,20 +337,6 @@ footer {
         margin-bottom: 0.8rem;
     }
 
-    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
-    width: 20vw;
-    }
-
-    .chick17, .chick16, .chick6 {
-        visibility: hidden;
-    }
-
-    .chick18 {
-        left: 60%
-    } 
-
-
-
     .footer-text {
         font-size: 2rem;
         padding: 3.5rem;
@@ -399,20 +359,6 @@ footer {
     .item-text {
         font-size: 3.5rem;
     }
-
-    .chick1, .chick2, .chick3, .chick4, .chick1-1, .chick2-1, .chick3-1, .chick4-1, .chick1-3, .chick2-3, .chick3-3, .chick4-3, .chick1-2, .chick2-2, .chick3-2, .chick4-2, .chick1-4, .chick2-4, .chick3-4, .chick4-4, .chick1-5, .chick2-5, .chick3-5, .chick4-5, .chick1-6, .chick2-6, .chick3-6, .chick4-6, .chick1-7, .chick2-7, .chick3-7, .chick4-7, .chick1-8, .chick2-8, .chick3-8, .chick4-8, .chick1-9, .chick2-9, .chick3-9, .chick4-9, .chick1-10, .chick2-10, .chick3-10, .chick4-10, .chick1-11, .chick2-11, .chick3-11, .chick4-11, .chick1-12, .chick2-12, .chick3-12, .chick4-12, .chick1-13, .chick2-13, .chick3-13, .chick4-13, .chick1-14, .chick2-14, .chick3-14, .chick4-14, .chick1-15, .chick2-15, .chick3-15, .chick4-15 {
-    width: 20vw;
-    }
-
-    .chick17, .chick16, .chick6 {
-        visibility: hidden;
-    }
-
-    .chick18 {
-        left: 60%
-    } 
-
-
 
     .footer-text {
         font-size: 3rem;
