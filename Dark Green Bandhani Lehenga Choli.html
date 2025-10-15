@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Blue Banarsi Lehenga</title>
+    <title>Dark Green Bandhani Lehenga Choli</title>
 </head>
 <body>
     <header>
@@ -73,12 +73,29 @@
         </header>
     <main>
     <div class="main-container">
-        <div class="img-container">
-            <img src="Blue Banarsi Lehenga.webp">
+        
+        <div class="img-container slider">
+          <div class="slides" id="slides">
+              <img src="Dark Green Bandhani Lehenga Choli Front.webp" alt="First">
+              <img src="Dark Green Bandhani Lehenga Choli Back.webp" alt="Second">
+         </div>
         </div>
-            <p class="name">Blue Banarsi Lehenga</p>
-            <p class="price">₹1350</p>
-        <input type="button" class="buy-btn" value="DM to Buy" onclick="window.open('https://wa.me/919076399366?text=Hi%2C%20Nikki%20Popo%2C%20I%20want%20to%20place%20an%20order%20of%20Blue%20Banarsi%20Lehenga%20which%20is%20of%20%E2%82%B9%201350', '_blank')">
+
+        <div class="buttons">
+            <button onclick="showSlide(0)" class="right"><i class="fa-solid fa-chevron-left" style="color: #511f24;"></i></button>
+            <button onclick="showSlide(1)" class="left"><i class="fa-solid fa-chevron-right" style="color: #511f24;"></i></button>
+        </div>
+
+        <script>
+         function showSlide(index) {
+         document.getElementById("slides").style.transform =
+         "translateX(" + (-index * 100) + "%)";
+        }
+        </script>
+
+            <p class="name lehenga">Dark Green Bandhani Lehenga Choli</p>
+            <p class="price">₹1550</p>
+        <input type="button" class="buy-btn" value="DM to Buy" onclick="window.open('https://wa.me/919076399366?text=Hi%2C%20Nikki%20Popo%2C%20I%20want%20to%20place%20an%20order%20of%20Dark%20Green%20Bandhani%Lehenga%20Choli%20which%20is%20of%20%E2%82%B9%201550', '_blank')">
     </div>
     </main>
     <script src="script.js"></script>
